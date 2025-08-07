@@ -1,5 +1,5 @@
 //
-// Created by Nikkq on 2025/03/4.
+// Created by Nikka on 2025/03/4.
 //
 
 #include <android/input.h>
