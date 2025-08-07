@@ -219,7 +219,7 @@ void StartTricks(bool* p_open) {
             if (ui_dpi_scale < 0.999f) ImGui::SetNextWindowPos(ImVec2(main_viewport->WorkPos.x + glWidth / (ui_dpi_scale * 3), main_viewport->WorkPos.y + glHeight / (ui_dpi_scale * 3)));
         }
     
-        if (!ImGui::Begin(std::string(OBFUSCATE("Modded by Nikka | SF2 - 2.41.6 | ARM64")).c_str(), p_open, window_flags)) {
+        if (!ImGui::Begin(std::string(OBFUSCATE("Modded by Nikka | SF2 - 2.41.7 | ARM64")).c_str(), p_open, window_flags)) {
             ImGui::End();
             return;
         }
@@ -235,7 +235,6 @@ void StartTricks(bool* p_open) {
                 ImGui::TableNextColumn(); Toggle(OBFUSCATE("No Timeout"), &timeh);
                 ImGui::TableNextColumn(); Toggle(OBFUSCATE("Enable Kick, Punches, etc."), &fall);
                 ImGui::TableNextColumn(); Toggle(OBFUSCATE("Rounds Count"), &crounds);
-                //ImGui::TableNextColumn(); Toggle(OBFUSCATE("Wallshot"), &wall);
                 ImGui::EndTable();
             }
             std::vector<const char*> cstr_options = {
