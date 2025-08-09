@@ -9,7 +9,7 @@ AutoShadow is a native Android IL2CPP/Unity runtime instrumentation tool. It hoo
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Runtime IL2CPP Symbol Resolution:**  
   Dynamically resolves and binds exported IL2CPP functions via `xdl_sym()` from a shared object.
@@ -28,7 +28,7 @@ AutoShadow is a native Android IL2CPP/Unity runtime instrumentation tool. It hoo
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AutoShadow/
@@ -49,7 +49,7 @@ AutoShadow/
 
 ---
 
-## 🧩 Dependencies
+## Dependencies
 
 - [ImGui](https://github.com/ocornut/imgui) (with Android + OpenGL ES backend)
 - Android NDK
@@ -58,7 +58,7 @@ AutoShadow/
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### IL2CPP Symbol Hooking
 ```cpp
@@ -77,7 +77,7 @@ n = (r (*) p)xdl_sym(il2cpp_handle, #n, NULL);
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - Android device (rooted or with appropriate injection method)
 - Target game built with Unity + IL2CPP
@@ -85,7 +85,7 @@ n = (r (*) p)xdl_sym(il2cpp_handle, #n, NULL);
 
 ---
 
-## 📦 Build Instructions
+## Build Instructions
 
 1. Clone this repo.
 2. Setup Android NDK environment.
@@ -94,13 +94,13 @@ n = (r (*) p)xdl_sym(il2cpp_handle, #n, NULL);
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is intended for **educational and debugging** purposes only. Usage in production games or for unauthorized memory access may violate terms of service or legal agreements. Use responsibly.
 
 ---
 
-## 🧠 Credits
+## Credits
   
 - ImGui contributors  
 - IL2CPP symbol research contributors  
