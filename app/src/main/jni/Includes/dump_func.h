@@ -262,7 +262,7 @@ std::string dump_type(Il2CppClass* klass, int klassIndex) {
 
 static int callback_z(struct dl_phdr_info *info, size_t size, void *arg) {
   (void)size, (void)arg;
-  if (strstr(info->dlpi_name, "libunity.so")) il2cpp_base_z = (uintptr_t)info->dlpi_addr;
+  if (strstr(info->dlpi_name, "libil2cpp.so")) il2cpp_base_z = (uintptr_t)info->dlpi_addr;
   return 0;
 }
 
